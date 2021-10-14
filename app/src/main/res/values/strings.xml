@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">edakuntalp_odev1</string>
+    <string name="extended_fab_content_desc">Count</string>
+    <string name="extended_fab_label">Count</string>
+</resources>
