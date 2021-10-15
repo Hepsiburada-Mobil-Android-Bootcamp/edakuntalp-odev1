@@ -11,7 +11,14 @@
         android:theme="@style/Theme.Edakuntalp_odev1">
         <activity
             android:name=".MovieScreenActivity"
-            android:exported="true" />
+            android:exported="true"
+            android:theme="@style/AppTheme.NoActionBar">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
         <activity
             android:name=".SignUpActivity"
             android:exported="true"
@@ -19,11 +26,7 @@
         <activity
             android:name=".CountingActivity"
             android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
 
         <meta-data

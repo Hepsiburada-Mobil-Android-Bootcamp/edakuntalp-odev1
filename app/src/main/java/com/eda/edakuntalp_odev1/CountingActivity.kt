@@ -24,7 +24,7 @@ class CountingActivity : AppCompatActivity() {
 
         var count: MutableLiveData<Int>? = countingViewModel?.getInitialcount()
         count?.observe(this, Observer {
-            count_tv.setText("Count-> "+it)
+            count_tv.setText(it)
         })
 
         count_btn.setOnClickListener {
